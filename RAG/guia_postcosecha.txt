@@ -1,0 +1,245 @@
+GUÍA DE BENEFICIADO Y POSTCOSECHA DEL CAFÉ
+De la Cereza a la Taza — Mejores Prácticas para Productores
+Versión 2026
+
+=============================================================
+1. ¿POR QUÉ IMPORTA EL BENEFICIADO?
+=============================================================
+
+El proceso de beneficiado puede representar hasta el 40% de la calidad final en taza.
+Un café de variedad excelente y cosechado en el punto óptimo puede arruinarse completamente
+con un mal proceso de beneficiado. Por el contrario, un manejo postcosecha cuidadoso puede
+elevar 3-5 puntos la puntuación en cata (cupping).
+
+El beneficiado involucra todo lo que ocurre entre la cosecha de la cereza y el almacenamiento
+del grano en pergamino o verde listo para exportar.
+
+=============================================================
+2. MÉTODOS DE BENEFICIADO
+=============================================================
+
+--- MÉTODO HÚMEDO (Lavado / Washed) ---
+
+El más común en Colombia y Centroamérica. Produce cafés con acidez clara, limpieza en taza y alta uniformidad.
+
+PROCESO PASO A PASO:
+
+1. RECEPCIÓN Y FLOTACIÓN:
+   - Depositar las cerezas cosechadas en un tanque o balde con agua
+   - Los frutos maduros y sanos se hunden (densa), los sobremaduros y defectuosos flotan
+   - Retirar y descartar todos los flotadores (son defectos)
+   - Lavar con agua limpia
+
+2. DESPULPADO:
+   - Pasar las cerezas por la despulpadora el mismo día de la cosecha
+   - Retrasar el despulpe más de 12 horas = inicio de fermentación no controlada = defectos
+   - Verificar que la despulpadora esté bien calibrada (no debe partir ni rayar el grano)
+   - El mucílago (capa gelatinosa) queda adherido al grano después del despulpe
+
+3. FERMENTACIÓN EN TANQUE:
+   - Colocar el café despulpado en tanques de fermentación (cemento, plástico o fibra de vidrio)
+   - El tiempo de fermentación depende de la temperatura:
+     * 18-22°C (zonas altas): 36-48 horas
+     * 22-26°C (zonas medias): 24-36 horas
+     * 26-30°C (zonas bajas): 16-24 horas
+   - PRUEBA DE FERMENTACIÓN LISTA: introducir un palo en la masa de café; si el hoyo se mantiene sin derrumbarse, la fermentación está lista
+   - SOBRE-FERMENTACIÓN: olor a vinagre fuerte, sabor a fermentado en taza. Error grave.
+   - POCA FERMENTACIÓN: mucílago no se desprende al lavar. El café resultante tiene sabor a hierba.
+
+4. LAVADO:
+   - Lavar el café fermentado con agua limpia frotando los granos
+   - El mucílago debe quedar completamente removido (grano áspero al tacto)
+   - Usar agua limpia, no la misma agua de fermentación
+   - Puede requerirse 3-5 lavadas según la fermentación
+
+5. SECADO (ver sección 3)
+
+--- MÉTODO NATURAL (Seco / Natural) ---
+
+El método más antiguo. El fruto entero (cereza) se seca con la pulpa. Produce cafés con cuerpo alto, dulzor intenso y notas frutadas. Muy apreciado en el mercado de especialidad.
+
+REQUIERE:
+- Alta radiación solar y baja humedad ambiental (no recomendado en zonas muy húmedas)
+- Más espacio en las marquesinas o secaderos
+- Mayor cuidado y volteo frecuente para evitar moho
+
+PROCESO:
+1. Flotación para remover defectos (igual que en el húmedo)
+2. Llevar la cereza ENTERA (sin despulpar) directamente al secadero
+3. Extender en capa delgada (máx 5 cm) sobre mallas elevadas o lonas
+4. Voltear cada 2-3 horas los primeros días, luego 3-4 veces al día
+5. Tiempo de secado: 20-30 días hasta alcanzar 11% de humedad
+6. Si llueve: cubrir de inmediato con plástico o tela
+
+DEFECTOS POSIBLES:
+- Negro fermento: olores putrefactos por mal secado o acumulación de agua
+- Sobre-secado (humedad <10%): grano quebradizo, se parte en el trillado
+
+--- MÉTODO HONEY (Miel) ---
+
+Método intermedio: se despulpa la cereza pero se deja parte o todo el mucílago durante el secado.
+El mucílago que queda actúa como "miel" durante el secado, dando dulzor y cuerpo a la taza.
+
+VARIANTES:
+- Yellow Honey: 25% de mucílago retenido
+- Red Honey: 50% de mucílago
+- Black Honey: 75-100% de mucílago (más cercano al natural)
+
+CONSIDERACIONES:
+- Requiere condiciones de baja humedad ambiental (riesgo de moho con mucho mucílago)
+- Volteo muy frecuente los primeros días (cada 1-2 horas)
+- Tiempo de secado: 15-25 días según la variante
+
+=============================================================
+3. SECADO: LA ETAPA CRÍTICA
+=============================================================
+
+El objetivo es llevar el café de aproximadamente 55-60% de humedad (recién lavado) a 10-12% de humedad (listo para almacenar o trillar).
+
+MÉTODOS DE SECADO:
+
+A) CAMAS ELEVADAS (Marquesinas con malla):
+- El mejor método para café de especialidad
+- El café queda suspendido en malla, recibe aire por todos lados
+- El secado es más uniforme y controlado
+- Evitar secar en cemento o polietileno (absorbe humedad del piso, secado irregular)
+
+B) MARQUESINA TIPO TÚNEL:
+- Estructura plástica tipo invernadero que atrapa calor solar
+- Excelente para zonas húmedas y nubladas
+- Permite regular la temperatura y el flujo de aire
+
+C) PATIO DE CEMENTO (no recomendado para especialidad):
+- El café absorbe temperatura irregular del piso
+- Riesgo de sobre-secado en el exterior y sub-secado en el interior
+- En emergencias, usar con volteo constante
+
+D) SECADORA MECÁNICA:
+- Para volúmenes grandes o en épocas de mucha lluvia
+- Temperatura: no superar 45°C para no dañar el grano
+- Temperatura ideal: 35-40°C con flujo de aire constante
+
+CURVA DE SECADO RECOMENDADA:
+- Días 1-3: capa muy delgada (3-4 cm), volteo cada hora. Temperatura interior no > 40°C
+- Días 4-7: capa de 5-8 cm, volteo 4-5 veces al día
+- Días 7-15: capa de hasta 10 cm, volteo 2-3 veces al día
+- Días 15+: volteo 1-2 veces al día hasta alcanzar 11-12% de humedad
+
+MEDICIÓN DE HUMEDAD:
+- Usar un medidor de humedad (higrómetro de granos): herramienta indispensable
+- Medición objetivo: 10-12% para almacenamiento en pergamino
+- Menos de 10%: grano seco, se quiebra en el trillado (pérdida económica)
+- Más de 12%: riesgo de moho durante el almacenamiento
+
+PRUEBA ARTESANAL (sin higrómetro):
+- Apretar un puñado de granos: deben salir sueltos fácilmente
+- Morder un grano: debe sonar "clic" (no blando ni polvoroso)
+- El grano no debe dejar huella al presionarlo con la uña
+
+=============================================================
+4. MANEJO DE RESIDUOS DEL BENEFICIADO
+=============================================================
+
+EL PROBLEMA AMBIENTAL:
+El beneficiado húmedo genera aguas residuales (aguas mieles) muy contaminantes.
+1 litro de agua miel tiene la misma carga contaminante que 200 litros de aguas residuales domésticas.
+Verter aguas mieles directamente a ríos o quebradas es un delito ambiental en la mayoría de países.
+
+MANEJO DE PULPA DE CAFÉ:
+- Compostar la pulpa: mezclada con cal (1 kg de cal por cada 100 kg de pulpa) y aireación
+- El compost de pulpa de café es un excelente fertilizante orgánico (lista en 60-90 días)
+- Usarlo como abono de fondo en los hoyos de siembra o como cobertura en los surcos
+
+MANEJO DE AGUAS MIELES:
+Opción 1 — Tanques de tratamiento en serie:
+- 3-4 tanques en secuencia donde el agua se oxigena y los sólidos se depositan
+- El agua parcialmente tratada puede usarse para riego (lejos de fuentes de agua)
+
+Opción 2 — Lombricompostaje de aguas mieles:
+- Pasar las aguas mieles a través de lechos de lombrices con materiales absorbentes
+- Las lombrices metabolizan la materia orgánica y el resultado es hummus líquido
+
+Opción 3 — Demi-pulpado con mínimo uso de agua:
+- Usar despulpadoras de fricción (sin agua en el proceso)
+- Reducen el volumen de aguas residuales en más del 90%
+
+NORMATIVA:
+Muchas certificaciones (Fair Trade, Orgánico, Rainforest Alliance) requieren un plan de manejo de residuos del beneficiado como requisito para la certificación.
+
+=============================================================
+5. ALMACENAMIENTO DEL CAFÉ PERGAMINO
+=============================================================
+
+El café en pergamino bien secado puede almacenarse hasta 12 meses sin pérdida significativa de calidad si las condiciones son correctas.
+
+CONDICIONES IDEALES:
+- Humedad relativa del ambiente: 60-65%
+- Temperatura: 15-20°C (sin variaciones bruscas)
+- Ventilación adecuada (sin corrientes directas de aire)
+- Oscuridad (la luz degrada los compuestos aromáticos)
+
+TIPO DE ENVASE:
+- Sacos de fique o yute: permiten respiración del grano (preferidos para 1-3 meses)
+- Sacos con barrera plástica interna (GrainPro o Ecotact): ideales para más de 3 meses, mantienen humedad estable
+
+ERRORES COMUNES DE ALMACENAMIENTO:
+- Almacenar sobre piso de tierra o cemento frío (absorbe humedad)
+- Almacenar junto con agroquímicos o combustibles (el café absorbe olores)
+- Cambios bruscos de temperatura (condensación dentro del saco)
+- No separar físicamente lotes de productores diferentes (pérdida de trazabilidad)
+
+SEÑALES DE MAL ALMACENAMIENTO:
+- Olor a moho o a fermento (humedad excesiva durante almacenamiento)
+- Granos de color oscuro o verdosos (humedad y oxidación)
+- Presencia de insectos (gorgojo del café: Araecerus fasciculatus)
+
+=============================================================
+6. CLASIFICACIÓN Y PREPARACIÓN DEL CAFÉ PARA LA VENTA
+=============================================================
+
+CLASIFICACIÓN FÍSICA (por tamaño):
+- Usar zarandas con mallas de diferentes calibres
+- Granos de mayor tamaño (criba 17/18+): mayor valor en mercado de especialidad
+- Granos pequeños y partidos: precio inferior, para mercado local
+
+CLASIFICACIÓN MANUAL:
+- Extender el café en una mesa o lona blanca
+- Retirar manualmente: granos negros, brocados, quebrados, con pergamino manchado
+- Esta clasificación puede mejorar 2-3 puntos en la puntuación de catación
+
+PREPARACIÓN PARA ENTREGA A COOPERATIVA:
+- Llenar los sacos correctamente identificados (nombre productor, lote, fecha, peso)
+- Verificar la humedad antes de empacar (10-12%)
+- Registrar en el cuaderno de campo: fecha de entrega, número de sacos, peso total
+
+=============================================================
+7. CALIDAD EN TAZA — DEFECTOS MÁS COMUNES Y SUS CAUSAS
+=============================================================
+
+SABOR A FERMENTO/VINAGRE:
+Causa: sobre-fermentación en tanque o cosecha de frutos sobremaduros
+Solución: controlar tiempo de fermentación con termómetro y prueba del palillo
+
+SABOR A TIERRA/MOHO:
+Causa: mal secado (humedad mayor a 12% durante almacenamiento) o contacto con suelo
+Solución: usar camas elevadas, higrómetro, y almacenamiento correcto
+
+SABOR FLOJO / SIN CUERPO:
+Causa: frutos verdes cosechados, fermentación incompleta
+Solución: seleccionar solo frutos maduros, asegurar fermentación completa
+
+SABOR A MADERA/PAPEL:
+Causa: café muy viejo o secado muy lento con temperatura baja
+Solución: comercializar antes de los 12 meses post-cosecha
+
+AMARGO EXCESIVO:
+Causa: granos negros en la mezcla (frutas sobre-maduras fermentadas en la planta)
+Solución: clasificación manual rigurosa, re-re oportuno
+
+ACIDEZ EXCESIVA (desagradable):
+Causa: fermentación descontrolada
+Solución: control de tiempo y temperatura de fermentación
+
+DEFECTO FENÓLICO (medicinal, plástico):
+Causa: uso de pesticidas o herbicidas cerca del café en proceso de secado
+Solución: no aplicar productos fitosanitarios durante el beneficiado, áreas separadas

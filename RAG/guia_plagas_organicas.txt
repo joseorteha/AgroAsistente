@@ -1,0 +1,270 @@
+GUÍA DE DIAGNÓSTICO Y CONTROL DE PLAGAS Y ENFERMEDADES EN CAFÉ
+Enfoque en Manejo Orgánico e Integrado
+Para productores de zonas cafeteras — Versión 2026
+
+=============================================================
+1. ENFERMEDADES FÚNGICAS
+=============================================================
+
+--- ROYA DEL CAFÉ (Hemileia vastatrix) ---
+DESCRIPCIÓN: La enfermedad más devastadora del café. Hongo que ataca principalmente las hojas.
+
+SÍNTOMAS:
+- Manchas amarillas pálidas en el haz (parte superior) de la hoja
+- En el envés (parte inferior) aparece un polvo anaranjado-amarillo (esporas del hongo)
+- Las manchas crecen y se unen hasta cubrir toda la hoja
+- La hoja se vuelve café y cae prematuramente (defoliación)
+- En ataques severos: caída masiva de hojas, pérdida de hasta el 50% de la cosecha
+
+CONDICIONES QUE FAVORECEN LA ROYA:
+- Temperaturas entre 15°C y 28°C (ideal para el hongo)
+- Humedad relativa superior al 80%
+- Lluvias frecuentes seguidas de períodos nublados
+- Zonas con mala ventilación (exceso de sombrío o alta densidad de siembra)
+- Plantas con deficiencias nutricionales (especialmente potasio)
+- Altitudes menores a 1.600 msnm tienen mayor presión de roya
+
+DIAGNÓSTICO DIFERENCIAL:
+- Si el polvo en el envés es NARANJA/AMARILLO → Roya
+- Si las manchas son café con bordes amarillos pero SIN polvo → puede ser mancha de hierro
+- Si hay defoliación severa sin polvo → revisar otras causas (deficiencias, sequía)
+
+CONTROL ORGÁNICO:
+1. Caldo bordelés (sulfato de cobre + cal):
+   Preparación: 500 g de sulfato de cobre + 500 g de cal viva en 100 litros de agua
+   Aplicar cada 15-21 días durante épocas de alta presión (inicio de lluvias)
+
+2. Caldo sulfocálcico:
+   Preparación: 3 kg de azufre + 1 kg de cal en 10 litros de agua, hervir 45 minutos
+   Diluir 1 litro en 20 litros de agua para aplicar
+
+3. Trichoderma sp. (hongo benéfico):
+   Aplicar 200-250 g por 200 litros de agua en el suelo y follaje
+   Actúa como agente de control biológico
+
+4. Extracto de ajo + ají:
+   Licuar 5 cabezas de ajo + 10 ajíes picantes en 10 litros de agua
+   Filtrar y aplicar al follaje cada 8 días en época de alta presión
+
+CONTROL PREVENTIVO:
+- Usar variedades resistentes (Castillo, Colombia, Cenicafé 1)
+- Mantener buen drenaje del suelo
+- Regular el sombrío (no exceder 40% de sombra)
+- Fertilización balanceada, especialmente con potasio
+- Eliminar hojas caídas enfermas del suelo
+
+CONTROL CONVENCIONAL (cuando es necesario):
+- Trifloxistrobina + ciproconazol (Sphere): fungicida sistémico, muy efectivo
+- Aplicar en las primeras etapas del ataque, no cuando ya hay defoliación severa
+
+
+--- BROCA DEL CAFÉ (Hypothenemus hampei) ---
+DESCRIPCIÓN: Insecto considerado la plaga más dañina del café a nivel mundial.
+Es un escarabajo diminuto (1.5-2 mm) de color negro.
+
+SÍNTOMAS Y DIAGNÓSTICO:
+- Pequeño orificio circular (~1 mm) en la corona del fruto de café (el extremo opuesto al pedúnculo)
+- Fruto con orificio se ve normal por fuera pero por dentro está perforado y tiene el grano dañado
+- Al cortar el fruto: se observan galerías y posiblemente el insecto (pequeño punto negro)
+- Frutos que caen prematuramente al suelo (frutos brocados caídos)
+- Porcentaje de broca mayor al 2-3%: umbral de control urgente
+
+CONDICIONES QUE FAVORECEN LA BROCA:
+- Temperaturas superiores a 20°C aceleran su reproducción
+- A altitudes bajas (menores de 1.500 msnm) hay mayor incidencia
+- Frutos sobremaduros o caídos no recogidos son su principal fuente de reproducción
+- Lotes abandonados o con cosecha incompleta son focos de infestación
+
+CONTROL ORGÁNICO:
+1. Beauveria bassiana (hongo entomopatógeno):
+   - Principal control biológico de la broca
+   - Concentración: 1 x 10^8 conidias/mL
+   - Aplicar 200-250 g por 200 litros de agua
+   - Aplicar en la tarde (el hongo se inactiva con luz solar directa)
+   - Aplicar cuando la broca está en la fase de entrada al fruto (orificio reciente)
+
+2. Repase de frutos brocados y caídos (RE-RE):
+   - Recolectar TODOS los frutos del suelo y los brocados que quedaron en la planta
+   - Sumergir en agua caliente (más de 50°C) por 1 minuto, luego compostar
+   - Esta práctica puede reducir la infestación hasta un 70%
+
+3. Trampas artesanales con alcohol + agua:
+   - Mezclar 1 parte de alcohol etílico + 1 parte de agua en una botella plástica perforada
+   - La broca hembra es atraída por el olor del alcohol (simula fruto en fermentación)
+   - Colocar 15-20 trampas por hectárea
+   - Revisar y reponer cada 2 semanas
+
+4. Regulación del microclima:
+   - Mantener sombrío regulado para bajar temperatura
+   - A mayor altitud, menor presión de broca
+
+CONTROL CONVENCIONAL:
+- Endosulfán: restringido en muchos países, verificar normativa local
+- Cipermetrina: solo en casos extremos, con EPP completo
+
+
+--- ANTRACNOSIS (Colletotrichum gloeosporioides) ---
+DESCRIPCIÓN: Hongo que ataca frutos, ramas y hojas. Muy frecuente en épocas lluviosas.
+
+SÍNTOMAS:
+- En frutos: manchas hundidas de color café oscuro a negro en la superficie
+- Los frutos atacados se secan y momifican (quedan colgando negros en la planta)
+- En ramas: lesiones alargadas café oscuras, pueden matar la rama (muerte regresiva)
+- En hojas: manchas irregulares café con borde amarillento
+
+CONDICIONES FAVORABLES:
+- Alta humedad y lluvias frecuentes
+- Heridas en la planta (por cosecha, poda o granizo)
+- Plantas debilitadas por otras enfermedades o mal manejo
+
+CONTROL:
+- Caldo bordelés: mismo preparado que para roya
+- Eliminación de frutos momificados y ramas muertas
+- Aplicación de Trichoderma en suelo
+- Evitar heridas innecesarias en la planta
+
+
+--- MANCHA DE HIERRO / OJO DE GALLO (Cercospora coffeicola) ---
+SÍNTOMAS:
+- Manchas circulares en hojas con centro gris/blanco y bordes café o purpúreos
+- Centro puede caerse dejando un hoyo (apariencia de "ojo de gallo")
+- También ataca frutos verdes: manchas hundidas café que pueden llegar al grano
+
+CONDICIONES FAVORABLES:
+- Plantas con deficiencias nutricionales (especialmente nitrógeno y potasio)
+- Exceso de humedad y poca ventilación
+- Plantas bajo estrés hídrico o con suelos muy ácidos
+
+CONTROL:
+- Corregir deficiencias nutricionales (fertilización adecuada)
+- Caldo bordelés preventivo
+- Mejorar ventilación regulando densidad de siembra y sombrío
+
+
+=============================================================
+2. PLAGAS DE INSECTOS
+=============================================================
+
+--- MINADOR DE LA HOJA (Leucoptera coffeella) ---
+SÍNTOMAS:
+- Manchas transparentes o blancas en la hoja, con aspecto de "minas" o galerías
+- Al trasluz se observan larvas pequeñas dentro de la hoja
+- Las hojas afectadas se secan y caen (defoliación en ataques severos)
+
+CONTROL:
+- Beauveria bassiana
+- Extracto de nim (Azadirachta indica): 50 mL por litro de agua
+- Control biológico con avispas parasitoides (fauna natural presente en fincas diversificadas)
+
+
+--- TRIPS (Frankliniella spp.) ---
+SÍNTOMAS:
+- Hojas jóvenes con aspecto plateado, arrugado o con deformaciones
+- Flor de café dañada: pétalos con manchas o bordes secos
+- En ataques severos: caída de flores (afecta la producción)
+
+CONTROL:
+- Aceite de nim diluido
+- Jabón potásico: 5 g por litro de agua
+- Mantener buen sombrío y humedad en el ambiente
+
+
+--- COCHINILLA DE LA RAÍZ (Dysmicoccus spp.) ---
+SÍNTOMAS:
+- Planta con aspecto decaído, crecimiento detenido sin causa aparente
+- Al raspar el suelo alrededor de la raíz: se observan insectos blancos con algodón
+- Raíces con apariencia de "bola de algodón" en la zona del cuello
+
+CONTROL:
+- Drenaje adecuado del suelo (la cochinilla prospera en suelos encharcados)
+- Aplicar Beauveria bassiana en drench (riego) al suelo
+- Extracto de ajo en drench al suelo
+
+=============================================================
+3. PROBLEMAS ABIÓTICOS (No son plagas ni enfermedades)
+=============================================================
+
+--- DEFICIENCIA DE NITRÓGENO ---
+SÍNTOMAS: Amarillamiento generalizado comenzando por las hojas más viejas (basales).
+Las hojas jóvenes permanecen verdes al inicio.
+SOLUCIÓN: Fertilización nitrogenada (urea, gallinaza, lombriabono)
+
+--- DEFICIENCIA DE POTASIO ---
+SÍNTOMAS: Bordes de hojas de color café (necrosis marginal). Las hojas aparecen "quemadas" en los bordes.
+Primero afecta hojas adultas maduras.
+SOLUCIÓN: Aplicar potasio (KCl, sulfato de potasio, ceniza de madera en producción orgánica)
+
+--- DEFICIENCIA DE MAGNESIO ---
+SÍNTOMAS: Amarillamiento entre las nervaduras de la hoja (clorosis intervenal).
+Las nervaduras permanecen verdes mientras el tejido entre ellas amarilla.
+SOLUCIÓN: Aplicar sulfato de magnesio, cal dolomítica o lombriabono
+
+--- QUEMADURA POR HERBICIDAS ---
+SÍNTOMAS: Hojas con bordes irregulares quemados, marchitez súbita, manchas irregulares sin patrón definido.
+Aparece días después de la aplicación de herbicidas.
+SOLUCIÓN: Lavar suelo con agua, no aplicar más herbicida, esperar recuperación
+
+--- DAÑO POR GRANIZO ---
+SÍNTOMAS: Hojas con perforaciones circulares o rasgaduras, ramas con heridas lineales.
+Aparece después de eventos de granizo.
+SOLUCIÓN: Aplicar caldo bordelés como preventivo de hongos en las heridas, podar ramas severamente dañadas
+
+=============================================================
+4. PROTOCOLO PARA DIAGNÓSTICO RÁPIDO EN CAMPO
+=============================================================
+
+PASO 1: ¿Dónde están los síntomas?
+- Solo en hojas → ir a sección de enfermedades foliares
+- Solo en frutos → revisar broca y antracnosis
+- En hojas Y frutos → probable enfermedad sistémica o problema nutricional
+- En la raíz o cuello → revisar hongos de suelo o cochinilla
+
+PASO 2: ¿Hay algún organismo visible?
+- Polvo naranja en envés de hoja → ROYA (confirmar)
+- Punto negro en fruto → BROCA (confirmar)
+- Insectos blancos en raíz → COCHINILLA
+
+PASO 3: ¿Cuándo empezó? ¿Qué cambió?
+- Después de lluvias intensas → hongos
+- En época seca → deficiencias, estrés hídrico
+- Después de aplicar algo → posible toxicidad
+- Lento y progresivo → deficiencia nutricional
+
+PASO 4: ¿Cuántas plantas están afectadas?
+- 1-5 plantas → monitorear, puede ser foco inicial
+- Más del 10% del lote → control urgente
+- Todo el lote → revisar manejo general (nutrición, pH, agua)
+
+=============================================================
+5. CALENDARIO DE APLICACIONES PREVENTIVAS RECOMENDADO
+=============================================================
+
+ENERO-FEBRERO (inicio de lluvias en muchas regiones):
+- Aplicar caldo bordelés preventivo para roya
+- Revisar trampas para broca
+- Fertilización con nitrógeno (inicio de crecimiento)
+
+MARZO-ABRIL (floración):
+- Monitoreo de trips en flores
+- NO aplicar insecticidas durante floración (daña polinizadores)
+- Fertilización con fósforo para favorecer cuaje
+
+MAYO-JUNIO (llenado de grano):
+- Monitoreo de broca en frutos en desarrollo
+- Liberación de Beauveria bassiana si broca supera umbral
+- Fertilización con potasio (calidad de grano)
+
+JULIO-AGOSTO (maduración):
+- Cosecha oportuna para evitar sobremaduración
+- Re-Re de frutos caídos
+- Monitoreo intensivo de broca
+
+SEPTIEMBRE-OCTUBRE (post-cosecha):
+- Poda de mantenimiento
+- Fertilización de recuperación
+- Aplicación de Trichoderma al suelo
+
+NOVIEMBRE-DICIEMBRE (descanso vegetativo en muchas zonas):
+- Análisis de suelo
+- Planificación de la próxima temporada
+- Renovación de lotes si es necesario
