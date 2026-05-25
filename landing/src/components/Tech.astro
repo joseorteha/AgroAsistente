@@ -1,0 +1,202 @@
+---
+const tech = [
+  {
+    name: 'n8n Cloud',
+    desc: 'Orquestador',
+    color: '#EA4B71',
+    logo: `<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10.428 0a2.17 2.17 0 1 0 0 4.34 2.17 2.17 0 0 0 0-4.34zM5.572 6.444a2.17 2.17 0 1 0 0 4.341 2.17 2.17 0 0 0 0-4.341zm9.713 0a2.17 2.17 0 1 0 0 4.341 2.17 2.17 0 0 0 0-4.341zm-9.713 6.444a2.17 2.17 0 1 0 0 4.342 2.17 2.17 0 0 0 0-4.342zM10.428 19.66a2.17 2.17 0 1 0 0 4.34 2.17 2.17 0 0 0 0-4.34z" fill="currentColor"/>
+      <path d="M7.698 8.574l-1.47 3.89M10.428 4.34v2.104M13.158 8.574l1.47 3.89M7.698 15.348l-1.47-1.43M13.158 15.348l1.47-1.43M10.428 17.556v2.104" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    </svg>`,
+  },
+  {
+    name: 'Cohere AI',
+    desc: 'LLM + Embeddings',
+    color: '#D18EE2',
+    logo: `<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2z" fill="currentColor" opacity=".15"/>
+      <path d="M7 12c0-2.761 2.239-5 5-5s5 2.239 5 5-2.239 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M9.5 12c0-1.38.895-2.5 2-2.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
+    </svg>`,
+  },
+  {
+    name: 'PostgreSQL',
+    desc: 'Base vectorial',
+    color: '#336791',
+    logo: `<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <ellipse cx="12" cy="7" rx="7" ry="4" fill="currentColor" opacity=".2"/>
+      <ellipse cx="12" cy="7" rx="7" ry="4" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M5 7v10c0 2.209 3.134 4 7 4s7-1.791 7-4V7" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M5 12c0 2.209 3.134 4 7 4s7-1.791 7-4" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M14.5 3.5c1.5-.5 3 .5 3 2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M17.5 5.5v3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    </svg>`,
+  },
+  {
+    name: 'pgvector',
+    desc: 'Búsqueda semántica',
+    color: '#8B5CF6',
+    logo: `<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="5"  cy="5"  r="2.5" fill="currentColor" opacity=".5"/>
+      <circle cx="19" cy="5"  r="2.5" fill="currentColor" opacity=".5"/>
+      <circle cx="5"  cy="19" r="2.5" fill="currentColor" opacity=".5"/>
+      <circle cx="19" cy="19" r="2.5" fill="currentColor" opacity=".5"/>
+      <circle cx="12" cy="12" r="3"   fill="currentColor"/>
+      <path d="M7 6.5l3.5 4M17 6.5l-3.5 4M7 17.5l3.5-4M17 17.5l-3.5-4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+    </svg>`,
+  },
+  {
+    name: 'MySQL',
+    desc: 'Datos de finca',
+    color: '#4479A1',
+    logo: `<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <ellipse cx="12" cy="6" rx="7" ry="3" fill="currentColor" opacity=".2"/>
+      <ellipse cx="12" cy="6" rx="7" ry="3" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M5 6v4c0 1.657 3.134 3 7 3s7-1.343 7-3V6" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M5 10v4c0 1.657 3.134 3 7 3s7-1.343 7-3v-4" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M5 14v4c0 1.657 3.134 3 7 3s7-1.343 7-3v-4" stroke="currentColor" stroke-width="1.5"/>
+    </svg>`,
+  },
+  {
+    name: 'Railway',
+    desc: 'Cloud hosting',
+    color: '#B044F8',
+    logo: `<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3.877 14.343A9.012 9.012 0 0 0 3 12C3 7.029 7.029 3 12 3c3.093 0 5.823 1.56 7.47 3.942L17.4 8.01A6.01 6.01 0 0 0 12 5.994c-3.314 0-6.005 2.69-6.005 6.005 0 .745.143 1.458.4 2.113L3.877 14.343zm1.02 2.006C6.15 18.323 8.9 20.006 12 20.006a8.967 8.967 0 0 0 7.492-4.017l-2.513-.837A6.008 6.008 0 0 1 12 17.994c-2.145 0-4.025-1.13-5.096-2.833l-2.007 1.188zm6.844-7.36l-1.988 8.003h2.494l1.988-8.003h-2.494z"/>
+    </svg>`,
+  },
+  {
+    name: 'Telegram',
+    desc: 'Interfaz de usuario',
+    color: '#26A5E4',
+    logo: `<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+    </svg>`,
+  },
+  {
+    name: 'GitHub',
+    desc: 'Docs RAG',
+    color: '#181717',
+    logoDark: '#ffffff',
+    logo: `<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+    </svg>`,
+  },
+];
+---
+
+<section class="section section-alt" id="tecnologia">
+  <div class="container">
+    <p class="eyebrow reveal">Tecnología</p>
+    <h2 class="section-title reveal">Construido con las<br />mejores herramientas.</h2>
+
+    <div class="tech-grid stagger">
+      {tech.map(t => (
+        <div class="tech-card reveal" style={`--brand: ${t.color}`}>
+          <div class="tech-icon">
+            <Fragment set:html={t.logo} />
+          </div>
+          <div class="tech-info">
+            <span class="tech-name">{t.name}</span>
+            <span class="tech-desc">{t.desc}</span>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin-top: 56px;
+  }
+
+  .tech-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 18px 18px;
+    background: var(--bg-card);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    box-shadow: var(--sh-sm);
+    cursor: default;
+    transition:
+      background  0.3s,
+      border-color 0.3s,
+      transform    0.4s cubic-bezier(.16,1,.3,1),
+      box-shadow   0.3s;
+  }
+  .tech-card:hover {
+    border-color: var(--brand, var(--green));
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: var(--sh-md), 0 0 0 1px var(--brand, var(--green));
+    background: color-mix(in srgb, var(--brand, var(--green)) 6%, var(--bg-card));
+  }
+
+  .tech-icon {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: color-mix(in srgb, var(--brand, var(--green)) 12%, transparent);
+    color: var(--brand, var(--green));
+    transition: background 0.3s, transform 0.4s cubic-bezier(.16,1,.3,1);
+  }
+  .tech-icon svg {
+    width: 22px;
+    height: 22px;
+  }
+  .tech-card:hover .tech-icon {
+    background: color-mix(in srgb, var(--brand, var(--green)) 20%, transparent);
+    transform: scale(1.1) rotate(-5deg);
+  }
+
+  /* GitHub icon: dark in light mode, white in dark mode */
+  .tech-card:last-child .tech-icon {
+    color: #181717;
+  }
+  :global([data-theme="dark"]) .tech-card:last-child .tech-icon {
+    color: #f0f0f0;
+  }
+
+  .tech-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 0;
+  }
+  .tech-name {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text-1);
+    letter-spacing: -0.01em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .tech-desc {
+    font-size: 0.72rem;
+    color: var(--text-3);
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 900px) {
+    .tech-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  }
+  @media (max-width: 400px) {
+    .tech-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .tech-card  { padding: 14px 12px; gap: 10px; }
+    .tech-icon  { width: 34px; height: 34px; }
+    .tech-icon svg { width: 18px; height: 18px; }
+  }
+</style>

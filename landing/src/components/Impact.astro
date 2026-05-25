@@ -1,0 +1,75 @@
+---
+---
+
+<section class="section impact-section">
+  <div class="impact-glow" aria-hidden="true"></div>
+  <div class="container">
+    <p class="eyebrow reveal">El propósito</p>
+    <blockquote class="impact-quote reveal">
+      <span class="qm">"</span>
+      Cada consulta puede marcar<br class="hide-mobile" />
+      la diferencia entre perder<br class="hide-mobile" />
+      o salvar una cosecha.
+      <span class="qm qm-close">"</span>
+    </blockquote>
+    <p class="impact-body reveal">
+      AgroAsistente está diseñado para los productores que más lo necesitan:
+      los que no tienen a nadie a quien llamarle cuando sus plantas enferman
+      o cuando no saben si el precio que les ofrecen es justo.
+    </p>
+  </div>
+</section>
+
+<style>
+  .impact-section {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    background: var(--bg);
+    transition: background 0.4s;
+  }
+
+  .impact-glow {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px; height: 500px;
+    background: radial-gradient(ellipse, var(--green-glow) 0%, transparent 65%);
+    pointer-events: none;
+    animation: orb-drift 14s ease-in-out infinite;
+  }
+
+  .impact-quote {
+    font-size: clamp(1.9rem, 4.8vw, 3.5rem);
+    font-weight: 800;
+    line-height: 1.22;
+    letter-spacing: -0.03em;
+    color: var(--text-1);
+    margin: 0 auto 32px;
+    max-width: 820px;
+    position: relative;
+    font-style: normal;
+  }
+  .qm {
+    color: var(--green);
+    font-size: 1.1em;
+    line-height: 0;
+    vertical-align: -0.15em;
+    opacity: 0.55;
+  }
+  .qm-close { margin-left: 3px; }
+
+  .impact-body {
+    font-size: 1.1rem;
+    color: var(--text-2);
+    max-width: 520px;
+    margin: 0 auto;
+    line-height: 1.78;
+    position: relative;
+  }
+
+  @media (max-width: 768px) {
+    .impact-quote { font-size: clamp(1.6rem, 7vw, 2.4rem); }
+    .impact-glow  { width: 360px; height: 280px; }
+  }
+</style>

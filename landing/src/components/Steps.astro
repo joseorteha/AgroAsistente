@@ -1,0 +1,162 @@
+---
+const steps = [
+  {
+    number: '01',
+    title:  'Escríbele por Telegram',
+    desc:   'Preséntate con tu nombre. El agente identifica tu finca automáticamente y carga todos tus datos.',
+    icon:   `<svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06-.01.24-.02.27z"/></svg>`,
+  },
+  {
+    number: '02',
+    title:  'Busca en manuales técnicos',
+    desc:   'El sistema RAG recupera los fragmentos más relevantes de las guías técnicas agrícolas especializadas.',
+    icon:   `<svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>`,
+  },
+  {
+    number: '03',
+    title:  'Consulta los datos de tu finca',
+    desc:   'Accede a tu historial real: altitud del lote, variedad, insumos recientes y alertas activas.',
+    icon:   `<svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"/></svg>`,
+  },
+  {
+    number: '04',
+    title:  'Respuesta personalizada',
+    desc:   'La IA cruza ambas fuentes y responde como un agrónomo que conoce personalmente tu terreno.',
+    icon:   `<svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>`,
+  },
+];
+---
+
+<section class="section section-alt steps-section">
+  <div class="container">
+    <p class="eyebrow reveal">El proceso</p>
+    <h2 class="section-title reveal">De tu pregunta<br />a la respuesta exacta.</h2>
+
+    <div class="steps-grid stagger">
+      {steps.map((s, i) => (
+        <div class="step reveal">
+          <div class="step-head">
+            <div class="step-icon">
+              <Fragment set:html={s.icon} />
+            </div>
+            <span class="step-num">{s.number}</span>
+          </div>
+          <h3>{s.title}</h3>
+          <p>{s.desc}</p>
+          {i < steps.length - 1 && (
+            <div class="step-connector" aria-hidden="true">
+              <div class="connector-line"></div>
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    margin-top: 72px;
+  }
+
+  .step {
+    position: relative;
+    padding: 0 20px 0 0;
+  }
+
+  .step-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+
+  .step-icon {
+    width: 46px; height: 46px;
+    display: flex; align-items: center; justify-content: center;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    color: var(--text-3);
+    flex-shrink: 0;
+    transition: background 0.35s, border-color 0.35s,
+                color 0.35s, transform 0.4s cubic-bezier(.16,1,.3,1);
+  }
+  .step.visible .step-icon {
+    border-color: var(--green);
+    background: var(--green-soft);
+    color: var(--green);
+  }
+  .step:hover .step-icon {
+    transform: scale(1.12) rotate(-6deg);
+  }
+
+  .step-num {
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: var(--green);
+    opacity: 0.65;
+  }
+
+  .step h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-1);
+    margin-bottom: 10px;
+    letter-spacing: -0.01em;
+    line-height: 1.32;
+  }
+  .step p {
+    font-size: 0.88rem;
+    color: var(--text-2);
+    line-height: 1.72;
+  }
+
+  /* Animated connector between steps */
+  .step-connector {
+    position: absolute;
+    top: 22px;
+    right: -1px;
+    width: 20px;
+    height: 2px;
+    overflow: visible;
+  }
+  .connector-line {
+    position: absolute;
+    top: 0; left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--green), rgba(52,199,89,0.3));
+    transition: width 0.7s cubic-bezier(.16,1,.3,1);
+    border-radius: 1px;
+  }
+  .step.visible .connector-line { width: 100%; }
+
+  /* Responsive */
+  @media (max-width: 900px) {
+    .steps-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px 40px;
+    }
+    .step { padding: 0; }
+    .step-connector { display: none; }
+  }
+  @media (max-width: 560px) {
+    .steps-grid {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+    .step {
+      padding: 28px 0 28px 24px;
+      border-left: 2px solid var(--border);
+      transition: border-color 0.35s;
+    }
+    .step.visible { border-left-color: var(--green); }
+    .step:last-child { padding-bottom: 0; }
+    .step-connector { display: none; }
+  }
+</style>

@@ -1,0 +1,137 @@
+---
+---
+
+<section class="section cert-section">
+  <div class="container">
+    <div class="cert-card reveal">
+      <!-- Gradient border overlay -->
+      <div class="cert-border" aria-hidden="true"></div>
+
+      <div class="cert-logo">
+        <img src="/certificado.png" alt="AgroAsistente" />
+      </div>
+
+      <p class="cert-label">Certificado de Participación</p>
+      <h3 class="cert-name">Jose Bernardino Tlehuactle Ortega</h3>
+
+      <p class="cert-detail">
+        Completó la <strong>ONE | Inmersión Agentes de IA</strong>
+      </p>
+      <p class="cert-detail">Alura LATAM · Oracle Next Education · Mayo 2026</p>
+
+      <div class="cert-divider"></div>
+
+      <p class="cert-footer">
+        Este proyecto fue construido como aplicación práctica de esa inmersión,
+        con una idea propia y con impacto social real.
+      </p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .cert-section {
+    background: var(--bg-2);
+    transition: background 0.4s;
+  }
+
+  .cert-card {
+    max-width: 540px;
+    margin: 0 auto;
+    position: relative;
+    background: var(--bg-card);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 48px 44px 52px;
+    text-align: center;
+    box-shadow: var(--sh-lg);
+    overflow: hidden;
+    transition:
+      background 0.4s,
+      box-shadow 0.5s,
+      transform 0.5s cubic-bezier(.16,1,.3,1);
+  }
+  .cert-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--sh-lg), 0 0 70px var(--green-glow);
+  }
+  .cert-card:hover .cert-border { opacity: 0.5; }
+
+  /* Animated gradient border */
+  .cert-border {
+    position: absolute;
+    inset: 0;
+    border-radius: 24px;
+    padding: 1px;
+    background: linear-gradient(135deg, var(--green), transparent 40%, var(--green));
+    background-size: 200% 200%;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+                  linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.4s;
+    animation: border-spin 4s linear infinite;
+    pointer-events: none;
+  }
+  @keyframes border-spin {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .cert-logo {
+    margin-bottom: 22px;
+  }
+  .cert-logo img {
+    margin: 0 auto;
+    display: block;
+    width: min(100%, 240px);
+    height: auto;
+  }
+
+  .cert-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--green);
+    margin-bottom: 14px;
+  }
+
+  .cert-name {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--text-1);
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+    line-height: 1.22;
+  }
+
+  .cert-detail {
+    font-size: 0.92rem;
+    color: var(--text-2);
+    line-height: 1.65;
+    margin-bottom: 5px;
+  }
+  .cert-detail strong { color: var(--text-1); }
+
+  .cert-divider {
+    width: 48px; height: 1px;
+    background: var(--border);
+    margin: 28px auto;
+  }
+
+  .cert-footer {
+    font-size: 0.82rem;
+    color: var(--text-3);
+    font-style: italic;
+    line-height: 1.65;
+  }
+
+  @media (max-width: 580px) {
+    .cert-card { padding: 36px 24px 44px; }
+    .cert-name  { font-size: 1.28rem; }
+  }
+</style>

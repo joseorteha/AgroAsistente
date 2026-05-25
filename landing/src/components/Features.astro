@@ -1,0 +1,171 @@
+---
+const features = [
+  {
+    icon: `<svg width="26" height="26" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg>`,
+    title: 'Diagnóstico de plagas',
+    desc:  'Describe los síntomas de tus plantas. El agente cruza los manuales técnicos con los datos reales de tu lote y te da un diagnóstico personalizado.',
+    tag:   'RAG + MySQL',
+  },
+  {
+    icon: `<svg width="26" height="26" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>`,
+    title: 'Precios del mercado',
+    desc:  'Consulta el precio del café por kilogramo y por arroba. Diferencia entre café convencional, orgánico y certificado Fair Trade.',
+    tag:   'Tiempo real',
+  },
+  {
+    icon: `<svg width="26" height="26" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>`,
+    title: 'Tu finca en datos',
+    desc:  'Accede al estado fenológico de tus lotes, inventario de insumos aplicados y alertas sanitarias activas. Todo desde una conversación.',
+    tag:   'Personalizado',
+  },
+];
+---
+
+<section class="section features-section">
+  <div class="container">
+    <p class="eyebrow reveal">¿Qué puede hacer?</p>
+    <h2 class="section-title reveal">Todo lo que necesitas<br />desde un mensaje.</h2>
+
+    <div class="features-grid stagger">
+      {features.map((f) => (
+        <div class="feature-card reveal">
+          <div class="feature-top">
+            <div class="feature-icon">
+              <Fragment set:html={f.icon} />
+            </div>
+            <span class="feature-tag">{f.tag}</span>
+          </div>
+          <h3>{f.title}</h3>
+          <p>{f.desc}</p>
+          <div class="card-shine" aria-hidden="true"></div>
+          <div class="card-glow"  aria-hidden="true"></div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .features-section {
+    background: var(--bg);
+    transition: background 0.4s;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 68px;
+  }
+
+  .feature-card {
+    position: relative;
+    background: var(--bg-card);
+    backdrop-filter: blur(16px);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 36px 28px 34px;
+    overflow: hidden;
+    box-shadow: var(--sh-sm);
+    transition:
+      background  0.4s,
+      border-color 0.35s,
+      transform    0.5s cubic-bezier(.16,1,.3,1),
+      box-shadow   0.5s;
+  }
+  .feature-card:hover {
+    border-color: var(--green);
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: var(--sh-lg), 0 0 0 1px var(--green);
+  }
+  .feature-card:hover .feature-icon {
+    animation: float 2.4s ease-in-out infinite;
+    background: var(--green-soft);
+    border-color: var(--green);
+  }
+  .feature-card:hover .card-glow  { opacity: 1; }
+  .feature-card:hover .card-shine { opacity: 0.5; }
+
+  .feature-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 22px;
+  }
+
+  .feature-icon {
+    width: 52px; height: 52px;
+    display: flex; align-items: center; justify-content: center;
+    background: var(--green-soft);
+    border: 1px solid transparent;
+    border-radius: 16px;
+    color: var(--green);
+    flex-shrink: 0;
+    transition: background 0.3s, border-color 0.3s;
+  }
+
+  .feature-tag {
+    font-size: 0.67rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--green);
+    background: var(--green-soft);
+    border: 1px solid rgba(52,199,89,0.22);
+    border-radius: 100px;
+    padding: 4px 12px;
+    white-space: nowrap;
+    align-self: flex-start;
+  }
+
+  .feature-card h3 {
+    font-size: 1.12rem;
+    font-weight: 700;
+    color: var(--text-1);
+    margin-bottom: 12px;
+    letter-spacing: -0.01em;
+  }
+  .feature-card p {
+    font-size: 0.92rem;
+    color: var(--text-2);
+    line-height: 1.74;
+  }
+
+  /* Subtle shine sweep on hover */
+  .card-shine {
+    position: absolute;
+    top: 0; left: -100%;
+    width: 60%; height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.06), transparent);
+    transform: skewX(-20deg);
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+  }
+  .feature-card:hover .card-shine {
+    animation: sweep 0.55s ease forwards;
+  }
+  @keyframes sweep {
+    0%   { left: -100%; opacity: 0.5; }
+    100% { left: 150%;  opacity: 0; }
+  }
+
+  .card-glow {
+    position: absolute;
+    bottom: -50px; left: 50%;
+    transform: translateX(-50%);
+    width: 220px; height: 120px;
+    background: radial-gradient(ellipse, var(--green-glow) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.45s;
+    pointer-events: none;
+  }
+
+  @media (max-width: 900px) {
+    .features-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 580px) {
+    .features-grid { grid-template-columns: 1fr; gap: 16px; }
+    .feature-card  { padding: 28px 22px 28px; }
+  }
+</style>

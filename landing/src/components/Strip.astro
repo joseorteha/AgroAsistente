@@ -1,0 +1,113 @@
+---
+const stats = [
+  { number: 142, suffix: '',   label: 'chunks indexados' },
+  { number: 24,  suffix: '/7', label: 'siempre disponible' },
+  { number: 5,   suffix: '',   label: 'fuentes de conocimiento' },
+];
+---
+
+<section class="strip">
+  <div class="container">
+    <div class="stats-row stagger">
+      {stats.map(s => (
+        <div class="stat reveal">
+          <span class="stat-num" data-target={s.number} data-suffix={s.suffix}>
+            0{s.suffix}
+          </span>
+          <span class="stat-label">{s.label}</span>
+        </div>
+      ))}
+    </div>
+
+    <p class="strip-text reveal">
+      En México, miles de productores cafetaleros toman decisiones críticas sobre plagas,
+      fertilización y precios sin acceso a un ingeniero agrónomo.
+      <strong>AgroAsistente cambia eso.</strong>
+    </p>
+  </div>
+</section>
+
+<style>
+  .strip {
+    background: var(--bg-2);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 72px 0;
+    transition: background 0.4s;
+  }
+
+  .stats-row {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 52px;
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .stat-num {
+    font-size: clamp(2.4rem, 5vw, 3.6rem);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    background: linear-gradient(135deg, var(--text-1) 0%, var(--green) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .stat-label {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text-3);
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+
+  .strip-text {
+    font-size: clamp(1rem, 2.2vw, 1.35rem);
+    color: var(--text-2);
+    line-height: 1.68;
+    text-align: center;
+    max-width: 660px;
+    margin: 0 auto;
+  }
+  .strip-text strong { color: var(--text-1); }
+
+  @media (max-width: 600px) {
+    .stats-row { gap: 36px; }
+    .strip { padding: 52px 0; }
+  }
+</style>
+
+<script>
+  function animateCount(el: HTMLElement) {
+    const target   = parseInt(el.dataset.target ?? '0', 10);
+    const suffix   = el.dataset.suffix ?? '';
+    const duration = 1600;
+    const start    = performance.now();
+    const tick = (now: number) => {
+      const p = Math.min((now - start) / duration, 1);
+      const e = 1 - Math.pow(1 - p, 3); // ease-out cubic
+      el.textContent = Math.round(e * target) + suffix;
+      if (p < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  }
+
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        animateCount(e.target as HTMLElement);
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  document.querySelectorAll('.stat-num').forEach(el => obs.observe(el));
+</script>
